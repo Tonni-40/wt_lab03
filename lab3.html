@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tonni Portfolio</title>
+<style>
+body{margin:0;padding:0;font-family:Arial,sans-serif;background:#e8f0f7;color:#333;display:flex;justify-content:center;}
+.container{max-width:1000px;width:100%;padding:20px;display:grid;grid-template-columns:1fr 1fr;grid-gap:25px;}
+.header{grid-column:1/-1;text-align:center;margin-bottom:30px;}
+.avatar{width:150px;height:150px;border-radius:50%;object-fit:cover;margin:0 auto;display:block;box-shadow:0 4px 12px rgba(0,0,0,0.1);}
+h1{margin:10px 0;color:#222;}
+h2{margin-top:0;padding-bottom:5px;border-bottom:3px solid;} 
+p,li{line-height:1.6;margin:5px 0;}
+ul{padding-left:20px;margin:0;}
+.box{border-radius:12px;padding:20px;box-shadow:0 5px 15px rgba(0,0,0,0.12);transition:transform 0.2s, box-shadow 0.2s;}
+.box:hover{transform:translateY(-5px);box-shadow:0 8px 25px rgba(0,0,0,0.15);}
+.education{background:#ffe0b2;border-bottom:3px solid #ffb74d;}
+.skills{background:#c8e6c9;border-bottom:3px solid #81c784;}
+.experience{background:#bbdefb;border-bottom:3px solid #64b5f6;}
+.summary{background:#f8bbd0;border-bottom:3px solid #f06292;}
+.portfolio{background:#d1c4e9;border-bottom:3px solid #7e57c2;}
+.contact{background:#fff9c4;border-bottom:3px solid #fff176;}
+.skills ul,.portfolio ul{list-style:disc;padding-left:20px;}
+@media(max-width:800px){.container{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<img class="avatar" src="tonnipic.png" alt="Tonni">
+<h1>Tonni</h1>
+<p>B.Sc Student at BAIUST, Cumilla | Art & Coding Enthusiast</p>
+</div>
+<div class="box education">
+<h2>Education</h2>
+<p>B.Sc in CSE, BAIUST, Cumilla (2022–Present)</p>
+</div>
+<div class="box skills">
+<h2>Skills</h2>
+<ul>
+<li>HTML, CSS, JavaScript</li>
+<li>Python, React</li>
+<li>Responsive Design, Git</li>
+</ul>
+</div>
+<div class="box experience">
+<h2>Experience / Projects</h2>
+<p>Created interactive art-based web pages and small JS apps.</p>
+</div>
+<div class="box summary">
+<h2>Professional Summary</h2>
+<p>Passionate about art with strong coding skills, combining creativity and technology in web applications.</p>
+</div>
+<div class="box portfolio">
+<h2>Portfolio Highlights</h2>
+<ul>
+<li>Interactive art gallery website</li>
+<li>JS-based drawing tools</li>
+<li>React mini-apps for web practice</li>
+</ul>
+</div>
+<div class="box contact">
+<h2>Contact</h2>
+<p>Email: tonni@gmail.com</p>
+<p>Phone: +8801XXXXXXXXX</p>
+<p>Location: Cumilla, Bangladesh</p>
+</div>
+</div>
+</body>
+</html>
